@@ -15,6 +15,9 @@ export default function Home() {
         <h1 >
           HELLO WORLD !
         </h1>
+        <p>
+          Aqui hay un parrafo
+        </p>
       </main>
 
     </div>
