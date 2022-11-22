@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import Footer from '../components/footer/footer';
 import ResponsiveAppBar from "../components/navbar/navbar";
 import styles from '../styles/Home.module.css'
 
@@ -20,6 +21,8 @@ export default function Home() {
           Aqui hay un parrafo
         </p>
       </main>
+
+      <Footer />
 
     </div>
   )
