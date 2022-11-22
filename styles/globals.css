@@ -1,4 +1,6 @@
-html,
+html {
+  background-color: rgb(250, 250, 250);
+}
 body {
   padding: 0;
   margin: 0;
@@ -23,4 +25,35 @@ a {
     color: white;
     background: black;
   }
+}
+
+.social-container {
+  background: rgb(218, 214, 225);
+  padding: 25px 50px;
+}
+
+a.social {
+  margin: 0 1rem;
+  transition: transform 250ms;
+  display: inline-block;
+}
+
+a.social:hover {
+  transform: translateY(-2px);
+}
+
+a.youtube {
+  color: #eb3223;
+}
+
+a.facebook {
+  color: #4968ad;
+}
+
+a.twitter {
+  color: #49a1eb;
+}
+
+a.instagram {
+  color: black;
 }
