@@ -15,11 +15,9 @@ export default function Home() {
 
       <main>
         <h1 >
-          HELLO WORLD !
+        Aca van a ver Cards
         </h1>
-        <p>
-          Aqui hay un parrafo
-        </p>
+
       </main>
 
       <Footer />
