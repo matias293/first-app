@@ -1,6 +1,7 @@
 import Head from 'next/head'
-import Footer from '../components/footer/footer';
-import ResponsiveAppBar from "../components/navbar/navbar";
+import Footer from '../components/Footer/footer';
+import Main from '../components/main/main';
+import ResponsiveAppBar from "../components/Navbar/navbar";
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
@@ -14,12 +15,7 @@ export default function Home() {
       <ResponsiveAppBar/>
 
       <main>
-        <h1 >
-          HELLO WORLD !
-        </h1>
-        <p>
-          Aqui hay un parrafo
-        </p>
+        <Main/>
       </main>
 
       <Footer />
