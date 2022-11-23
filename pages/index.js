@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Footer from '../components/Footer/footer';
-import Main from '../components/main/main';
+import Main from '../components/Main/main';
 import ResponsiveAppBar from "../components/Navbar/navbar";
 import styles from '../styles/Home.module.css'
 
@@ -14,9 +14,9 @@ export default function Home() {
       </Head>
       <ResponsiveAppBar/>
 
-      <main>
+      
         <Main/>
-      </main>
+      
 
       <Footer />
 
